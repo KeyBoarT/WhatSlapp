@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+android:layout_width="match_parent"
+android:layout_height="wrap_content">
+
+<RelativeLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <TextView
+        android:id="@+id/txt_receive_date"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="5dp"
+        android:layout_marginTop="5dp"
+        android:layout_centerHorizontal="true"
+        android:background="@drawable/btn_background"
+        android:backgroundTint="@color/grey"
+        android:textColor="@color/lightgrey"
+        android:text="10 Haziran 2019"/>
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_below="@id/txt_receive_date"
+        android:layout_marginTop="5dp"
+        android:layout_marginStart="5dp"
+        android:background="@drawable/receive_message_background"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:id="@+id/txt_receive_message_with_date"
+            android:textColor="@color/white"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="This is receive message"
+            android:maxWidth="300sp"
+            android:padding="10dp"
+            android:textSize="18sp"/>
+
+        <TextView
+            android:id="@+id/txt_receive_time_with_date"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toEndOf="@id/txt_receive_message_with_date"
+            android:layout_alignBottom="@id/txt_receive_message_with_date"
+            android:layout_marginEnd="20dp"
+            android:textColor="@color/lightgrey"
+            android:text="19.56"/>
+    </RelativeLayout>
+
+</RelativeLayout>
+</RelativeLayout>

@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/login_screen_background"
+    tools:context=".SignUp">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAlignment="center"
+        android:textColor="@color/mediumdarkgrey"
+        android:textStyle="italic|bold"
+        android:text="@string/sign_up_message"
+        android:textSize="20sp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginHorizontal="30dp"
+        android:layout_marginTop="150dp"/>
+
+    <EditText
+        android:id="@+id/edt_name"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:paddingHorizontal="10dp"
+        android:background="@drawable/edt_background"
+        android:layout_marginTop="250dp"
+        android:textColorHint="@color/mediumgrey"
+        android:textColor="@color/grey"
+        android:hint="@string/name"
+        android:layout_marginHorizontal="20dp"
+        android:autofillHints="" />
+    <EditText
+        android:id="@+id/edt_email"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:paddingHorizontal="10dp"
+        android:background="@drawable/edt_background"
+        android:layout_below="@id/edt_name"
+        android:textColorHint="@color/mediumgrey"
+        android:textColor="@color/grey"
+        android:layout_marginTop="10dp"
+        android:hint="@string/email"
+        android:layout_marginHorizontal="20dp"
+        android:autofillHints=""/>
+    <EditText
+        android:id="@+id/edt_password"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:paddingHorizontal="10dp"
+        android:background="@drawable/edt_background"
+        android:layout_below="@id/edt_email"
+        android:textColorHint="@color/mediumgrey"
+        android:textColor="@color/grey"
+        android:layout_marginTop="10dp"
+        android:hint="@string/password"
+        android:layout_marginHorizontal="20dp"
+        android:autofillHints="" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/btn_signup"
+        android:textAllCaps="false"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/edt_password"
+        android:layout_marginTop="10dp"
+        android:layout_centerHorizontal="true"
+        android:textSize="20sp"
+        android:textColor="@color/white"
+        android:text="@string/sign_up"
+        android:background="@drawable/btn_background"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:gravity="center"
+        android:layout_above="@id/text_version">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text = "@string/have_an_account"
+            android:layout_marginEnd="10dp"
+            android:textSize="20sp"
+            android:textColor="@color/white" />
+
+        <TextView
+            android:id="@+id/text_login"
+            android:textStyle="bold"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text = "@string/log_in"
+            android:textSize="20sp"
+            android:textColor="@color/white" />
+
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/text_version"
+        android:text="@string/version"
+        android:textColor="@color/white"
+        android:textSize="20sp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_alignParentBottom="true"/>
+
+</RelativeLayout>

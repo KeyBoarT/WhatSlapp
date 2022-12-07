@@ -1,0 +1,36 @@
+<resources>
+    <string name="app_name" translatable="false">WhatSlapp</string>
+    <string name="email">Email</string>
+    <string name="password">Password</string>
+    <string name="forgot_password">Forgot Password ?</string>
+    <string name="log_in">Log In</string>
+    <string name="sign_up">Sign Up</string>
+    <string name="version" translatable="false">V 1.0.0</string>
+    <string name="name">Name</string>
+    <string name="log_out">Log out</string>
+    <string name="submit">Submit</string>
+    <string name="message">Message</string>
+    <string name="email_sent">Email Sent</string>
+    <string name="empty_field_error">This field cannot be empty</string>
+    <string name="an_error_occured">An error occurred</string>
+    <string name="sign_up_message">Just one step you can see what\'s happened in the world</string>
+    <string name="log_in_message">just login and enjoy the fun</string>
+    <string name="have_an_account">Have  an account?</string>
+    <string name="profile_action">Profile</string>
+    <string name="search_action">Search</string>
+    <string name="search">Search…</string>
+    <string name="menu_change_background">Change Background</string>
+    <string name="update_user">Update</string>
+    <string name="profile">Profile</string>
+    <string name="delete_account">Delete Account</string>
+    <string name="alert">Alert</string>
+    <string name="this_account_will_be_deleted">This account will be deleted !</string>
+    <string name="profile_updated">Profile Updated !</string>
+    <string name="email_field_cannot_be_left_blank">Email field cannot be left blank</string>
+    <string name="name_field_cannot_be_left_blank">Name field cannot be left blank</string>
+    <string name="okay">Okay</string>
+    <string name="decline">Decline</string>
+    <string name="profile_deleted">Profile Deleted</string>
+    <string name="background_changed">Chat background changed</string>
+    <string name="password_field_cannot_be_left_blank">Password field cannot be left blank</string>
+</resources>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/search"
+        android:title="@string/search_action"
+        android:icon="@drawable/ic_baseline_search_24"
+        app:actionViewClass="android.widget.SearchView"
+        app:showAsAction="always|collapseActionView"/>
+    <item android:id="@+id/menu_logout" android:title="@string/log_out"/>
+    <item android:id="@+id/menu_profile" android:title="@string/profile"/>
+    <item android:id="@+id/menu_background" android:title="@string/menu_change_background"/>
+    <item android:id="@+id/menu_delete_account" android:title="@string/delete_account"/>
+</menu>

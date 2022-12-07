@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="email">Email</string>
+    <string name="password">Parola</string>
+    <string name="forgot_password">Şifremi Unuttum</string>
+    <string name="log_in">Giriş Yap</string>
+    <string name="sign_up">Kayıt Ol</string>
+    <string name="name">İsim</string>
+    <string name="log_out">Çıkış Yap</string>
+    <string name="submit">Onayla</string>
+    <string name="message">Mesaj</string>
+    <string name="email_sent">Email Gönderildi</string>
+    <string name="empty_field_error">Bu alan boş bırakılamaz</string>
+    <string name="an_error_occured">Bir hata oluştu</string>
+    <string name="sign_up_message">dünyada neler olduğunu görmeye bir adım kaldı</string>
+    <string name="log_in_message">giriş yap ve eğlencenin tadını çıkar</string>
+    <string name="have_an_account">Bir hesabın var mı?</string>
+    <string name="profile_action">Profil</string>
+    <string name="search_action">Ara</string>
+    <string name="search">Ara…</string>
+    <string name="menu_change_background">Arkaplanı Değiştir</string>
+    <string name="update_user">Güncelle</string>
+    <string name="profile">Profil Bilgileri</string>
+    <string name="delete_account">Hesabı Sil</string>
+    <string name="alert">Uyarı</string>
+    <string name="this_account_will_be_deleted">Bu hesap silinecek !</string>
+    <string name="profile_updated">Profil Güncellendi !</string>
+    <string name="email_field_cannot_be_left_blank">Email alanı boş bırakılamaz</string>
+    <string name="name_field_cannot_be_left_blank">İsim alanı boş bırakılamaz</string>
+    <string name="okay">Tamam</string>
+    <string name="decline">Vazgeç</string>
+    <string name="profile_deleted">Profil Silindi</string>
+    <string name="background_changed">Sohbet arkaplanı değiştirildi</string>
+    <string name="password_field_cannot_be_left_blank">Parola alanı boş bırakılamaz</string>
+</resources>
